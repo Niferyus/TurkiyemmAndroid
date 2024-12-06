@@ -43,5 +43,6 @@ fun navigate(viewmodel: viewmodel,auth: FirebaseAuth)
             val city = cityJson?.let { Json.decodeFromString<City>(it) }
             citydetailscreen(city)
         }
+
     }
 }
